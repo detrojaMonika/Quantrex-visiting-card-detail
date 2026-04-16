@@ -149,16 +149,6 @@ body::before {
     box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
 }
 
-.btn-instagram {
-    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    color: white;
-    box-shadow: 0 4px 14px 0 rgba(220, 39, 67, 0.3);
-}
-
-.btn-instagram:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(220, 39, 67, 0.4);
-}
 
 .btn-primary {
     background-color: var(--primary-color);
@@ -169,6 +159,17 @@ body::before {
     background-color: white;
     color: var(--primary-color);
     border: 1.5px solid #e3e8ee;
+}
+
+.btn-email {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: white;
+    box-shadow: 0 4px 14px 0 rgba(220, 39, 67, 0.3);
+}
+
+.btn-email:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(220, 39, 67, 0.4);
 }
 
 .btn:hover {
